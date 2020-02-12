@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 public void sendMessage(View view) {
 
     EditText message = (EditText)findViewById(R.id.message);
-    Toast.makeText(this, "sending a message", Toast.LENGTH_SHORT).show();
+    Toast.makeText(this, "sending  message", Toast.LENGTH_SHORT).show();
     Intent intent = new Intent(this,DisplayMessageActivity.class);
     intent.putExtra("MESSAGE" ,message.getText().toString());
     startActivity(intent);
