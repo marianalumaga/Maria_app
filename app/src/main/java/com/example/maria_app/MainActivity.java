@@ -26,6 +26,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button M =(Button)findViewById(R.id.button2);
+        M.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Main5Activity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 public void sendMessage(View view) {
 
@@ -55,5 +64,7 @@ public void sendMessage(View view) {
                 return true;
         }
     }
+
+
 
 }
