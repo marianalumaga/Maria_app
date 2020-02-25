@@ -23,8 +23,8 @@ public class ListVeiw extends AppCompatActivity {
         List<String> dataList = new ArrayList<String>();
         dataList.add("Java");
         dataList.add("Android");
-        dataList.add("DSAI");
-        dataList.add("JSP");
+        dataList.add("html");
+        dataList.add("system secuity");
         dataList.add("c programming");
 
 
@@ -36,7 +36,9 @@ public class ListVeiw extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int index, long l) {
                 Object clickItemObj = adapterView.getAdapter().getItem(index);
-                Toast.makeText(ListVeiw.this, "You clicked " + clickItemObj.toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(ListVeiw.this, "You clicked " + clickItemObj.toString(),
+
+                        Toast.LENGTH_SHORT).show();
             }
         });
     }
