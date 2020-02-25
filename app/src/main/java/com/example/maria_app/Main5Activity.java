@@ -24,7 +24,7 @@ public class Main5Activity extends AppCompatActivity {
             public void onClick(View v) {
                 String tx="";
                 try{
-                    InputStream inputStream=getAssets().open("maric.c");
+                    InputStream inputStream=getAssets().open("maris.c");
                     int mar= inputStream.available();
                     byte[] by =new byte[mar];
                     inputStream.read(by);
