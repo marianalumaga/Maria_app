@@ -43,15 +43,23 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-       Button re=(Button)findViewById(R.id.button4);
-       re.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View v) {
-               Intent intent = new Intent(MainActivity.this,Recycler.class);
-               startActivity(intent);
-           }
-       });
+//       Button re=(Button)findViewById(R.id.button4);
+//       re.setOnClickListener(new View.OnClickListener() {
+//           @Override
+//           public void onClick(View v) {
+//               Intent intent = new Intent(MainActivity.this,Recycler.class);
+//               startActivity(intent);
+//           }
+//       });
 
+        Button re=(Button)findViewById(R.id.button4);
+        re.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Recycler.class);
+                startActivity(intent);
+            }
+        });
     }
 public void sendMessage(View view) {
 
