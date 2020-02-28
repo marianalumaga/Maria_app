@@ -52,14 +52,7 @@ public class MainActivity extends AppCompatActivity {
 //           }
 //       });
 
-        Button re=(Button)findViewById(R.id.button4);
-        re.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,Recycler.class);
-                startActivity(intent);
-            }
-        });
+
     }
 public void sendMessage(View view) {
 
@@ -84,6 +77,9 @@ public void sendMessage(View view) {
                 return true;
             case R.id.menu_refresh:
                 startActivity(new Intent(this, Main3Activity.class));
+                return true;
+            case R.id.rec:
+                startActivity(new Intent(this,Recycler.class));
                 return true;
             default:
                 return true;
