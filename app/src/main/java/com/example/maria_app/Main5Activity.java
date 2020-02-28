@@ -37,6 +37,7 @@ public class Main5Activity extends AppCompatActivity {
                 }
          see.setText((CharSequence) tx);
 
+
             }
         });
     }
