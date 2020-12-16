@@ -6,4 +6,9 @@
 
     <color name="year">#999999</color>
     <color name="title">#222222</color>
+
+    //from here
+
+    <color name="buttonColor">#0F9D58</color>
+    <color name="textColor">#FFFFFF</color>
 </resources>
