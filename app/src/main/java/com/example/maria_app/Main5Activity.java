@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-public class Main5Activity extends AppCompatActivity {
+public class Main5Activity extends AppCompatActivity{
     Button b;
     TextView see;
 
